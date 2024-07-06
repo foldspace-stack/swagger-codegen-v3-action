@@ -1,0 +1,9 @@
+# action.yml
+name: 'Swagger Codegen V3'
+description: 'Run Swagger Codegen V3 with Github Actions'
+branding:
+    icon: code
+    color: green
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/foldspace-stack/swagger-codegen-v3-action:main
